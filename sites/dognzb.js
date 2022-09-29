@@ -33,7 +33,7 @@
             // create the nzbget icon and assemble the download link
             var newitem = createNgIcon(
                 lid + '_nzbgc',
-                'https://dognzb.cr' + '/fetch/' + nzbid + '/' + rssToken,
+                'https://dl.dognzb.cr' + '/fetch/' + nzbid + '/' + rssToken,
                 category
             );
 
@@ -65,7 +65,7 @@
         // create the nzbget icon and assemble the download link
         var newitem = createNgIcon(
             lid + '_nzbgc',
-            'https://dognzb.cr' + '/fetch/' + nzbid + '/' + rssToken,
+            'https://dl.dognzb.cr' + '/fetch/' + nzbid + '/' + rssToken,
             category
         );
         newitem.querySelector('img').style.paddingRight='5px';
